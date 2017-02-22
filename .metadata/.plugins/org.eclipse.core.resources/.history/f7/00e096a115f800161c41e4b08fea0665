@@ -1,0 +1,10 @@
+package com.dachen.eureka_feign;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+@EnableFeignClients
+public class FeignApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(FeignApplication.class, args);
+	}
+}

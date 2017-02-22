@@ -1,0 +1,14 @@
+package com.dachen.eureka_ribbon;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class RibbonApplication {
+	@Bean
+	@LoadBalanced
+	RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
+	public static void main(String[] args) {
+		SpringApplication.run(RibbonApplication.class, args);
+	}
+}

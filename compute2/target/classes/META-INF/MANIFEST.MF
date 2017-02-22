@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: compute2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sharp
+Implementation-Vendor-Id: com.dachen
+Build-Jdk: 1.8.0_45
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

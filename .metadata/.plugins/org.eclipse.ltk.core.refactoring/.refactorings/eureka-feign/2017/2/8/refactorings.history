@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.dachen.eureka_feign.App&apos; to &apos;FeignApplication&apos;&#x0D;&#x0A;- Original project: &apos;eureka-feign&apos;&#x0D;&#x0A;- Original element: &apos;com.dachen.eureka_feign.App&apos;&#x0D;&#x0A;- Renamed element: &apos;com.dachen.eureka_feign.FeignApplication&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;App&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.dachen.eureka_feign{App.java[App" matchStrategy="1" name="FeignApplication" qualified="false" references="true" similarDeclarations="false" stamp="1487668224012" textual="false" version="1.0"/>
+</session>

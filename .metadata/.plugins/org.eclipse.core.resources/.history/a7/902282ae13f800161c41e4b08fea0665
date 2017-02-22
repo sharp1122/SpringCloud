@@ -1,0 +1,13 @@
+package com.dachen.eureka_ribbon;
+
+/**
+ * Hello world!
+ *
+ */
+public class RibbonApplication 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
