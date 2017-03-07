@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.alibaba.fastjson.JSONObject;
+
 @RestController
 @RequestMapping("/")
 public class ComputeController {
@@ -18,11 +20,19 @@ public class ComputeController {
     @Autowired
     private DiscoveryClient client;
     
-	@RequestMapping(value = "/add", method = RequestMethod.GET)
+	@RequestMapping(value = "/add", method = {RequestMethod.GET, RequestMethod.POST})
     public Integer add(@RequestParam Integer a, @RequestParam Integer b) {
         ServiceInstance instance = client.getLocalServiceInstance();
         Integer r = a + b;
         logger.info("/add, host:" + instance.getHost() + ", service_id:" + instance.getServiceId() + ", result:" + r);
         return r;
+    }
+	
+	@RequestMapping(value = "/json", method = {RequestMethod.GET, RequestMethod.POST})
+    public JSONObject json() {
+		JSONObject jsonObj = new JSONObject();
+		jsonObj.put("name", "张三");
+		jsonObj.put("age", 33);
+        return jsonObj;
     }
 }

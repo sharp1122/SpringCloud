@@ -1,5 +1,0 @@
-package com.dachen.eureka_ribbon.service;
-
-public class ComputeService {
-
-}

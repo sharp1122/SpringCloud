@@ -1,5 +1,0 @@
-package com.dachen.eureka_feign.controller;
-
-public class ConsumerController {
-
-}

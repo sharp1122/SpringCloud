@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=eureka-feign/src\/main\/java&lt;com.dachen.eureka_feign.i{ComputeClient.java[ComputeClient" modifiers="513" timestamp="1487670939660"/>
+<typeInfo handle="=gateway/C:\/Users\/sharp\/.m2\/repository\/com\/netflix\/zuul\/zuul-core\/1.1.0\/zuul-core-1.1.0.jar&lt;com.netflix.zuul(ZuulFilter.class[ZuulFilter" modifiers="1057" timestamp="1487732622191"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/spring-web\/4.2.6.RELEASE\/spring-web-4.2.6.RELEASE.jar&lt;org.springframework.web.client(RestTemplate.class[RestTemplate" modifiers="33" timestamp="1487661527763"/>
+<typeInfo handle="=eureka-ribbon/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-sleuth-core\/1.0.0.RELEASE\/spring-cloud-sleuth-core-1.0.0.RELEASE.jar&lt;org.springframework.cloud.sleuth.autoconfig(TraceAutoConfiguration.class[TraceAutoConfiguration" modifiers="33" timestamp="1487748563791"/>
+<typeInfo handle="=eureka-ribbon/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-sleuth-core\/1.0.0.RELEASE\/spring-cloud-sleuth-core-1.0.0.RELEASE.jar&lt;org.springframework.cloud.sleuth.instrument.web(TraceWebAutoConfiguration.class[TraceWebAutoConfiguration" modifiers="33" timestamp="1487748563791"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-commons\/1.1.0.RELEASE\/spring-cloud-commons-1.1.0.RELEASE.jar&lt;org.springframework.cloud.commons.util(InetUtils.class[InetUtils" modifiers="33" timestamp="1487661458185"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/cloud\/spring-cloud-netflix-eureka-client\/1.1.0.RELEASE\/spring-cloud-netflix-eureka-client-1.1.0.RELEASE.jar&lt;org.springframework.cloud.netflix.eureka(EurekaInstanceConfigBean.class[EurekaInstanceConfigBean" modifiers="33" timestamp="1487661544244"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/data\/spring-data-mongodb\/1.8.4.RELEASE\/spring-data-mongodb-1.8.4.RELEASE.jar&lt;org.springframework.data.mongodb.repository(MongoRepository.class[MongoRepository" modifiers="1537" timestamp="1487924449071"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/spring-test\/4.2.6.RELEASE\/spring-test-4.2.6.RELEASE.jar&lt;org.springframework.test.annotation(SystemProfileValueSource.class[SystemProfileValueSource" modifiers="33" timestamp="1487661406406"/>
+<typeInfo handle="=compute/C:\/Users\/sharp\/.m2\/repository\/org\/springframework\/spring-jdbc\/4.2.6.RELEASE\/spring-jdbc-4.2.6.RELEASE.jar&lt;org.springframework.jdbc.support(SQLErrorCodesFactory.class[SQLErrorCodesFactory" modifiers="33" timestamp="1488447322628"/>
+<typeInfo handle="=compute/src\/main\/java&lt;com.dachen.compute.domain{Itero.java[Itero" modifiers="513" timestamp="1488767828734"/>
 </typeInfoHistroy>

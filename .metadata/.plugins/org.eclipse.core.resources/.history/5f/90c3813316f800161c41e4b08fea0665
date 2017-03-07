@@ -1,8 +1,0 @@
-package com.dachen.eureka_feign.i;
-
-import org.springframework.cloud.netflix.feign.FeignClient;
-
-@FeignClient("compute-service")
-public interface ComputeClient {
-
-}
